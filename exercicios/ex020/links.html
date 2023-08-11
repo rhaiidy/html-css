@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Flameia-Machemicals-Startup.128.png" type="image/x-icon">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children 
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .especial {
+            background-color: rgb(245, 177, 177);
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::before {
+            content: '↠ ';
+        }
+        a::after {
+            content: ' ↞';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank" class="especial">Canal Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do Curso em Video</a></li>
+    </ul>
+    
+</body>
+</html>
